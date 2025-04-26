@@ -1,8 +1,13 @@
-import { findPackageJSON } from 'module';
-
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{vue,js,ts}"],
+  content: [
+    "./components/**/*.{vue,js,ts}",
+    "./layouts/**/*.{vue,js,ts}",
+    "./pages/**/*.{vue,js,ts}",
+    "./app/**/*.{vue,js,ts}",
+    "./plugins/**/*.{js,ts}",
+    "./nuxt.config.{js,ts}"
+  ],
   theme: {
     extend: {
       colors: {
@@ -22,15 +27,14 @@ export default {
         "apple-green": "#046E1B",
         "dire-wolf": "#292727",
       },
-    },
-    fontFamily: {
-      Figtree: "Figtree, sans-serif",
-    },
-    container: {
-      center: true,
-      padding: "2rem",
+      fontFamily: {
+        Figtree: "Figtree, sans-serif",
+      },
+      container: {
+        center: true,
+        padding: "2rem",
+      },
     },
   },
   plugins: [],
-}
-
+};
