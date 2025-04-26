@@ -26,6 +26,7 @@
     "@types/node": "^22.15.2",
     "@vue/test-utils": "^2.4.6",
     "jsdom": "^26.1.0",
+    "prettier": "^3.5.3",
     "vitest": "^3.1.2"
   }
 }
