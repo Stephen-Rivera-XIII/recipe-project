@@ -7,27 +7,31 @@ export default defineNuxtConfig({
   },
 
   experimental: {
-  scanPageMeta: 'after-resolve',
-  sharedPrerenderData: false,
-  compileTemplate: true,
-  resetAsyncDataToUndefined: true,
-  templateUtils: true,
-  relativeWatchPaths: true,
-  defaults: {
-    useAsyncData: {
-      deep: true
-    }
-  }
-},
+    scanPageMeta: 'after-resolve',
+    sharedPrerenderData: false,
+    compileTemplate: true,
+    resetAsyncDataToUndefined: true,
+    templateUtils: true,
+    relativeWatchPaths: true,
+    defaults: {
+      useAsyncData: {
+        deep: true,
+      },
+    },
+  },
 
   features: {
-    inlineStyles: true
+    inlineStyles: true,
+  },
+
+  image: {
+    domains: ['https://cdn.dummyjson.com'],
   },
 
   unhead: {
     renderSSRHeadOptions: {
-      omitLineBreaks: false
-    }
+      omitLineBreaks: false,
+    },
   },
 
   devtools: { enabled: true },
@@ -35,13 +39,12 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
     '@nuxt/icon',
-    '@nuxt/image'
+    '@nuxt/image',
   ],
 
   googleFonts: {
     families: {
-      'Figtree': true
-    }
+      Figtree: true,
+    },
   },
-  
-})
+});
