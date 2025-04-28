@@ -38,7 +38,13 @@
           </button>
         </div>
         <div class="flex-1 order-1 lg:order-2">
-          <img src="/nuxt-course-hero.png" alt="Hero Image" />
+          <NuxtImg
+            sizes="xs:100vw sm:667px"
+            src="/nuxt-course-hero.png"
+            density="x1"
+            format="webp"
+            alt=""
+          />
         </div>
       </div>
     </section>
