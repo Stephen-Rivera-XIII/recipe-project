@@ -45,6 +45,7 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxt/icon',
     '@nuxt/image',
+    'nuxt-vitest',
   ],
 
   googleFonts: {
