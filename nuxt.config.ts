@@ -30,6 +30,7 @@ export default defineNuxtConfig({
       'singular-hotteok-c15796.netlify.app'  
     ],
     staticFilename: 'assets/img/[name]-[hash][ext]',
+    noStatic: true,
   },
 
   unhead: {
