@@ -49,7 +49,7 @@ export default defineNuxtConfig({
 
   googleFonts: {
     families: {
-      Figtree: true,
+      Montserrat: true,
     },
   },
 });

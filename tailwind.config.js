@@ -28,7 +28,7 @@ export default {
         "dire-wolf": "#292727",
       },
       fontFamily: {
-        Figtree: "Figtree, sans-serif",
+        Montserrat: "Montserrat, sans-serif",
       },
       container: {
         center: true,
