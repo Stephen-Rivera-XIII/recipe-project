@@ -27,10 +27,10 @@ export default defineNuxtConfig({
   image: {
     domains: [
       'https://cdn.dummyjson.com',
-      'singular-hotteok-c15796.netlify.app'  
+      // 'singular-hotteok-c15796.netlify.app'  
     ],
-    staticFilename: 'assets/img/[name]-[hash][ext]',
-    noStatic: true,
+    // staticFilename: 'assets/img/[name]-[hash][ext]',
+    // noStatic: true,
   },
 
   unhead: {
